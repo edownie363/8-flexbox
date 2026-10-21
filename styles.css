@@ -14,8 +14,18 @@ body {
     gap: 20px;
 }
 
+.site-header {
+    background-color: darkcyan;
+    padding: 10px;
+}
+
+.site-main {
+    background-color: rgb(192, 219, 227);
+    padding: 10px;
+}
+
 .site-link {
-    background-color: rgb(195, 243, 243);
+    background-color: rgb(171, 240, 240);
     padding: 10px;
     color: black;
     border-radius: 10px;
@@ -28,8 +38,14 @@ body {
 }
 
 .site-footer {
-    background-color: rgb(240, 244, 255);
+    background-color: rgb(240, 250, 255);
     padding: 10px;
+}
+
+.two-col {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
 }
 
 .wrapper {
@@ -39,7 +55,7 @@ body {
 }
 
 .sidebar {
-    background-color: aqua
-    padding 10px;
+    background-color: rgb(90, 163, 163);
+    padding: 10px;
     flex: 0 0 200px;
 }
